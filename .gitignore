@@ -1,0 +1,30 @@
+# OS
+.DS_Store
+Thumbs.db
+
+# Backend
+backend/vendor/
+backend/.env
+backend/storage/*.key
+backend/storage/logs/*
+backend/public/storage/
+backend/database/database.sqlite
+
+# Frontend
+frontend/node_modules/
+frontend/dist/
+frontend/.vite/
+frontend/.env
+frontend/.env.local
+frontend/.env.*.local
+
+# Markdown file
+AGENTS.md
+DATABASE.md
+README.md
+RULES.md
+TODO.md
+UPDATE.md
+WORKFLOW.md
+
+start.bat
